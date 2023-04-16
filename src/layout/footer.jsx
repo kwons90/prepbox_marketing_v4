@@ -87,7 +87,7 @@ const Footer = () => {
                     </div>
                     <div className={classes['content__links']}>
                         <ul className={classes['content__links-list']}>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to='hero'
                                     spy={true}
@@ -141,7 +141,7 @@ const Footer = () => {
                                 >
                                     Pricing
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                         <ul className={classes['content__links-list']}>
                             {/* <li>
