@@ -144,7 +144,7 @@ const Footer = () => {
                             </li>
                         </ul>
                         <ul className={classes['content__links-list']}>
-                            <li>
+                            {/* <li>
                                 <a
                                     href='https://docs.google.com/document/d/1Rfj4Wr1fdJtcz1z1IbBZXH-4RhBQSWvKehl8034dkpM/edit'
                                     target='_blank'
@@ -162,7 +162,7 @@ const Footer = () => {
                                     Privacy Policy
                                 </a>
                             </li>
-                            {/* <li>
+                            {/* <li> */}
                                 <a href='#' target='_blank'>
                                     Slack
                                 </a>
@@ -187,14 +187,14 @@ const Footer = () => {
 
                     <div className={classes['copyright-links']}>
                         <a
-                            href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
+                            href='https://docs.google.com/document/d/15plLIrlTlMbqiwlLCWeSOIKKNVhM2r11xYJyXSmhGC8'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
                             Privacy Policy
                         </a>
                         <a
-                            href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
+                            href='https://docs.google.com/document/d/1Rfj4Wr1fdJtcz1z1IbBZXH-4RhBQSWvKehl8034dkpM'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
