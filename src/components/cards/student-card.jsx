@@ -9,7 +9,7 @@ const StudentCard = ({ name, image, score, major, university, logo, backgroundCo
             <div className={classes['student__content']}>
                 <div className={classes['student__content-student']}>
                     <div className={classes['student__avatar']}>
-                        <img src={image} alt='Student image' />
+                        <img src={image} alt='Student' />
                     </div>
                     <p className={classes['student__avatar-name']}>{name}</p>
                 </div>

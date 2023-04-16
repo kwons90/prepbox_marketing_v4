@@ -37,6 +37,7 @@ const PricingCard = ({ title, sessions, price, limits, active, linkTo }) => {
             <a
                 href={linkTo}
                 target='_blank'
+                rel='noopener noreferrer'
                 className={`${classes['card-btn']} ${
                     active ? `${classes['card-btn-active']}` : ''
                 }`}

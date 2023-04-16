@@ -29,6 +29,7 @@ const HeroSection = () => {
                         href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
                         className={classes['hero__content-btn']}
                         target='_blank'
+                        rel='noopener noreferrer'
                     >
                         <span>Get started for free</span>
                         <ArrowRight />
@@ -36,7 +37,7 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className={classes['hero-image']}>
-                <img src={Banner} alt='Image' />
+                <img src={Banner} alt='Laptop' />
             </div>
         </section>
     );
