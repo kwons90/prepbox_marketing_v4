@@ -79,7 +79,7 @@ const TutorailSection = () => {
             <div className={classes.container}>
                 <div className={classes.header}>
                     <p>
-                        Application is just as important as theory.
+                        Application is just as important as theory
                     </p>
                 </div>
                 <h2 className={classes.title}>How does it work?</h2>
