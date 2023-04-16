@@ -9,10 +9,10 @@ const TestimonialsSection = () => {
             <div className={classes.container}>
                 <div className={classes.header}>
                     <h2>Testimonials</h2>
-                    <p>
+                    {/* <p>
                         We are loved by the students and the parents, who learn through PrepBox, and
                         we intend to keep it this way
-                    </p>
+                    </p> */}
                 </div>
 
                 <div className={classes.content}>
@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
                         name='George Mavroudis, Parent of Gregory'
                         text='Gregory wrote his final test today in Math and said he felt pretty comfortable in most of it. I want to thank you...as you made a significant amount of progress in building his confidence and enjoyment of the subject.'
                     />
-                    <TestimonailCard
+                    {/* <TestimonailCard
                         name='Trinity Hsu'
                         text='Robyn got 100% for grade 10 math this year. Thank you so much...Robyn will be starting the grade 11 math classes with you in the summer.'
                     />
@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
                     <TestimonailCard
                         name='Parent of Robyn'
                         text='Robyn got 100% for grade 10 math this year. Thank you so much...Robyn will be starting the grade 11 math classes with you in the summer.'
-                    />
+                    /> */}
                 </div>
             </div>
             <div className={classes.learn}>

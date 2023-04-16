@@ -6,7 +6,7 @@ const SessionCard = () => {
             <div className={classes['card__description']}>
                 <div className={classes['card__description-content']}>
                     <h3>Our Session Times</h3>
-                    <p>You can sign up to attend any of our sessions to study with our tutors.</p>
+                    <p>You can sign up to attend any of our 2-hr sessions to study with our tutors.</p>
                     <p>All times are U.S. Eastern Standard Time</p>
                 </div>
             </div>

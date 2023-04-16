@@ -13,7 +13,7 @@ const TestimonailCard = ({ name, text }) => {
 
             <div className={classes.client}>
                 <div className={classes.avatar}>
-                    <img src={Testimonial} alt={name} />
+                    {/* <img src={Testimonial} alt={name} /> */}
                 </div>
                 <p>{name}</p>
             </div>

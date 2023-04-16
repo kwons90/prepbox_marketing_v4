@@ -26,11 +26,11 @@ const StudentSection = () => {
         <div className={classes.section}>
             <div className={classes['section-container']}>
                 <div className={classes['section__header']}>
-                    <h2 className={classes['section__header-title']}>Our Student Outcomes</h2>
-                    <p className='text-center'>
+                    <h2 className={classes['section__header-title']}>Student Outcomes</h2>
+                    {/* <p className='text-center'>
                         We have taught over 2,000 students, and over 500 of our students have gone
                         onto graduate from North America's top universities
-                    </p>
+                    </p> */}
                 </div>
 
                 <div className={classes['section__content']}>

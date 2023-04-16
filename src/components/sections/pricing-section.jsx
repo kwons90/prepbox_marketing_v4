@@ -6,10 +6,10 @@ const PricingSection = () => {
         <section className={classes.section} id='pricing'>
             <div className={classes.container}>
                 <h2>Our Pricing</h2>
-                <p className='text-center'>
+                {/* <p className='text-center'>
                     Beginning at $14 per hour, we offer the highest-quality math tutoring at the
                     most competitive rates
-                </p>
+                </p> */}
 
                 <div className={classes.content}>
                     <PricingCard
@@ -17,7 +17,7 @@ const PricingSection = () => {
                         sessions='One 2-hour sessions per week.'
                         price='$200/mo'
                         limits={2}
-                        active={false}
+                        active={true}
                         linkTo='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
                     />
                     <PricingCard
@@ -31,8 +31,8 @@ const PricingSection = () => {
                     <PricingCard
                         title='Light Speed'
                         sessions='Unlimited sessions per week.'
-                        price='$200/mo'
-                        active={false}
+                        price='$450/mo'
+                        active={true}
                         linkTo='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
                     />
                 </div>

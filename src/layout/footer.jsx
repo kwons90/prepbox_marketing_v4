@@ -3,8 +3,8 @@ import { Link } from 'react-scroll';
 
 import PrepLogo from './../assets/icons/prep-logo.svg';
 import FooterLogo from './../assets/images/footer-logo.svg';
-import Youtube from './../assets/icons/youtube.png';
-import Tiktok from './../assets/icons/tiktok.png';
+import Youtube from './../assets/icons/Ytube.png';
+import Instagram from './../assets/icons/inta.png';
 import Linkedin from './../assets/icons/linkedin.png';
 import Twitter from './../assets/icons/twitter.png';
 import Slack from './../assets/icons/slack.png';
@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className={classes.content}>
                     <div className={classes['content__texts']}>
                         <RouteLink to='/'>
-                            <img src={FooterLogo} alt='Logo' />
+                            {/* <img src={FooterLogo} alt='Logo' /> */}
                         </RouteLink>
                         <h6>Learn by Doing</h6>
                         <p>
@@ -48,30 +48,30 @@ const Footer = () => {
 
                         <ul className={classes['content__social']}>
                             <li>
-                                <a href='#' target='_blank'>
-                                    <img src={Youtube} alt='Youtube icon' />
+                                <a href='https://www.youtube.com/channel/UC6PNazM_bdKl1Cu8OMP0PVA?app=desktop' target='_blank'>
+                                    <img width='80%' src={Youtube} alt='Youtube icon' />
                                 </a>
                             </li>
                             <li>
-                                <a href='#' target='_blank'>
-                                    <img src={Tiktok} alt='Tiktok icon' />
+                                <a href='https://www.instagram.com/prepboxmath/' target='_blank'>
+                                    <img width='70%' src={Instagram} alt='Instagram icon' />
                                 </a>
                             </li>
                             <li>
-                                <a href='#' target='_blank'>
+                                <a href='https://www.linkedin.com/company/prepanywhere' target='_blank'>
                                     <img src={Linkedin} alt='Linkedin icon' />
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href='#' target='_blank'>
                                     <img src={Twitter} alt='Twitter icon' />
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href='#' target='_blank'>
                                     <img src={Slack} alt='Slack icon' />
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className={classes['content__links']}>
@@ -134,34 +134,34 @@ const Footer = () => {
                         </ul>
                         <ul className={classes['content__links-list']}>
                             <li>
-                                <a href='#' target='_blank'>
-                                    Feedback
+                                <a href='https://docs.google.com/document/d/1Rfj4Wr1fdJtcz1z1IbBZXH-4RhBQSWvKehl8034dkpM/edit' target='_blank'>
+                                    Terms of Use
                                 </a>
                             </li>
                             <li>
-                                <a href='#' target='_blank'>
-                                    Contact
+                                <a href='https://docs.google.com/document/d/15plLIrlTlMbqiwlLCWeSOIKKNVhM2r11xYJyXSmhGC8/edit' target='_blank'>
+                                    Privacy Policy
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href='#' target='_blank'>
                                     Slack
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a
                                     href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
                                     target='_blank'
                                 >
                                     Become an Affiliate
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
 
                 <div className={classes.copyright}>
-                    <p>&copy; {new Date().getFullYear()} - PrepAnywhere Inc. All Right Reserved</p>
+                    <p>&copy; {new Date().getFullYear()} - PrepAnywhere Inc. All Right Reserved. 8 Heintzman Cres., Maple, ON, Canada</p>
 
                     <div className={classes['copyright-links']}>
                         <a

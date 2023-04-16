@@ -11,10 +11,10 @@ const TutorsSection = () => {
         <div className={classes.section} id='team-section'>
             <div className={classes.container}>
                 <h2>Tutors</h2>
-                <p className='text-center'>
+                {/* <p className='text-center'>
                     The PrepBox team is composed of graduates from top schools and are tutors on the
                     platform
-                </p>
+                </p> */}
 
                 <div className={classes.content}>
                     <TutorCard

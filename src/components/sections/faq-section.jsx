@@ -44,7 +44,7 @@ const faqs = [
         id: 'q6',
         question: 'Does PrepBox assign homework?',
         answers: [
-            'We do not assign homework. We are here to facilitate learning and understanding, not add to the students’ schoolwork.',
+            'We do not assign homework. We are here to facilitate learning and understanding, not add to the students’ schoolwork. We will assign homework only upon request and if determiend necessary for the student’s learning objectives',
         ],
     },
 ];
@@ -105,12 +105,14 @@ const FaqSection = () => {
                 <div className={classes.questions}>
                     <h5>Still have questions?</h5>
                     <p>Get in touch with our team.</p>
-                    <a
+                    <p>Phone or WhatsApp: +1 646 290 0172</p>
+                    <p>Email: sanghyuk.kwon@prepanywhere.com</p>
+                    {/* <a
                         href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
                         target='_blank'
                     >
                         Contact
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <div className={classes['section-background']}></div>
