@@ -162,11 +162,6 @@ const Footer = () => {
                                     Privacy Policy
                                 </a>
                             </li>
-                            {/* <li> */}
-                                <a href='#' target='_blank'>
-                                    Slack
-                                </a>
-                            </li> */}
                             {/* <li>
                                 <a
                                     href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
